@@ -15,7 +15,7 @@ struct FavouritesView: View {
                 ForEach(dessertcore.savedEntity)  { dessert in
                     VStack(spacing:10){
                     HStack{
-                    Text("Name")
+                    Text("Name💎")
                     Spacer()
                     Text(dessert.name ?? "")
                     }
