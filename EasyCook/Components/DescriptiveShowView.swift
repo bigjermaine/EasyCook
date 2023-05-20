@@ -36,7 +36,7 @@ struct DescriptiveShowView: View {
                             )
                         
                         HStack {
-                            Text("click to favorite😁")
+                            Text("click to add favourite😁")
                             Button{
                                 dataSavedPresented = true
                                 dessertcore.addBooking(Name: mealdetails.strMeal)
