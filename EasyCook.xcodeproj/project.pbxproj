@@ -41,6 +41,7 @@
 		18B4C6412A12D5FA00454E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B4C6402A12D5FA00454E5D /* Preview Assets.xcassets */; };
 		18E01BC22A190D410048DE8F /* Dessert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E01BC02A190D410048DE8F /* Dessert.xcdatamodeld */; };
 		18E01BC52A190DBE0048DE8F /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E01BC42A190DBE0048DE8F /* CoredataManager.swift */; };
+		18E01BC72A191F130048DE8F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E01BC62A191F130048DE8F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		18B4C6402A12D5FA00454E5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18E01BC12A190D410048DE8F /* Dessert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dessert.xcdatamodel; sourceTree = "<group>"; };
 		18E01BC42A190DBE0048DE8F /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
+		18E01BC62A191F130048DE8F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 				18870B8B2A16D70F000A5B23 /* Views */,
 				18B4C63B2A12D5F700454E5D /* ContentView.swift */,
 				18B4C6392A12D5F700454E5D /* EasyCookApp.swift */,
+				18E01BC62A191F130048DE8F /* Launch Screen.storyboard */,
 				18B4C63D2A12D5FA00454E5D /* Assets.xcassets */,
 				18B4C63F2A12D5FA00454E5D /* Preview Content */,
 			);
@@ -312,6 +315,7 @@
 			files = (
 				18B4C6412A12D5FA00454E5D /* Preview Assets.xcassets in Resources */,
 				18B4C63E2A12D5FA00454E5D /* Assets.xcassets in Resources */,
+				18E01BC72A191F130048DE8F /* Launch Screen.storyboard in Resources */,
 				188279FD2A18047600A53C58 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,7 +481,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = EasyCook;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
@@ -510,7 +514,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = EasyCook;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
