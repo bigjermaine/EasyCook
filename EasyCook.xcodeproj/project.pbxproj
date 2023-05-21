@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18609C422A1AA51E0023B89E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18609C412A1AA51D0023B89E /* GoogleService-Info.plist */; };
 		1880E3A02A16DE190057CEB3 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880E39F2A16DE190057CEB3 /* FavouritesView.swift */; };
 		1880E3A22A16DE2D0057CEB3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880E3A12A16DE2D0057CEB3 /* SettingsView.swift */; };
 		1880E3A42A16DE4D0057CEB3 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880E3A32A16DE4D0057CEB3 /* BrowseView.swift */; };
@@ -38,13 +39,13 @@
 		18B4C63C2A12D5F700454E5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4C63B2A12D5F700454E5D /* ContentView.swift */; };
 		18B4C63E2A12D5FA00454E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B4C63D2A12D5FA00454E5D /* Assets.xcassets */; };
 		18B4C6412A12D5FA00454E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B4C6402A12D5FA00454E5D /* Preview Assets.xcassets */; };
-		18D804962A1A9F9F00F33FF6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D804952A1A9F9F00F33FF6 /* GoogleService-Info.plist */; };
 		18E01BC22A190D410048DE8F /* Dessert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E01BC02A190D410048DE8F /* Dessert.xcdatamodeld */; };
 		18E01BC52A190DBE0048DE8F /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E01BC42A190DBE0048DE8F /* CoredataManager.swift */; };
 		18E01BC72A191F130048DE8F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E01BC62A191F130048DE8F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18609C412A1AA51D0023B89E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1880E39F2A16DE190057CEB3 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
 		1880E3A12A16DE2D0057CEB3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1880E3A32A16DE4D0057CEB3 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
@@ -66,7 +67,6 @@
 		18B4C63B2A12D5F700454E5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18B4C63D2A12D5FA00454E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B4C6402A12D5FA00454E5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		18D804952A1A9F9F00F33FF6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18E01BC12A190D410048DE8F /* Dessert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dessert.xcdatamodel; sourceTree = "<group>"; };
 		18E01BC42A190DBE0048DE8F /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
 		18E01BC62A191F130048DE8F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -205,8 +205,8 @@
 		18B4C6382A12D5F700454E5D /* EasyCook */ = {
 			isa = PBXGroup;
 			children = (
+				18609C412A1AA51D0023B89E /* GoogleService-Info.plist */,
 				1883D77B2A17E1D1007B0272 /* Info.plist */,
-				18D804952A1A9F9F00F33FF6 /* GoogleService-Info.plist */,
 				18827A022A18A25500A53C58 /* Components */,
 				189424682A179E0E00AC32A9 /* Extension */,
 				18870B8E2A16D749000A5B23 /* Managers */,
@@ -314,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B4C6412A12D5FA00454E5D /* Preview Assets.xcassets in Resources */,
-				18D804962A1A9F9F00F33FF6 /* GoogleService-Info.plist in Resources */,
+				18609C422A1AA51E0023B89E /* GoogleService-Info.plist in Resources */,
 				18B4C63E2A12D5FA00454E5D /* Assets.xcassets in Resources */,
 				18E01BC72A191F130048DE8F /* Launch Screen.storyboard in Resources */,
 			);
