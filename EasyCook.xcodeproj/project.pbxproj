@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18609C422A1AA51E0023B89E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18609C412A1AA51D0023B89E /* GoogleService-Info.plist */; };
+		18609C462A1B46450023B89E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18609C452A1B46450023B89E /* GoogleService-Info.plist */; };
 		1880E3A02A16DE190057CEB3 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880E39F2A16DE190057CEB3 /* FavouritesView.swift */; };
 		1880E3A22A16DE2D0057CEB3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880E3A12A16DE2D0057CEB3 /* SettingsView.swift */; };
 		1880E3A42A16DE4D0057CEB3 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880E3A32A16DE4D0057CEB3 /* BrowseView.swift */; };
@@ -45,7 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18609C412A1AA51D0023B89E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18609C452A1B46450023B89E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1880E39F2A16DE190057CEB3 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
 		1880E3A12A16DE2D0057CEB3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		1880E3A32A16DE4D0057CEB3 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 		18B4C6382A12D5F700454E5D /* EasyCook */ = {
 			isa = PBXGroup;
 			children = (
-				18609C412A1AA51D0023B89E /* GoogleService-Info.plist */,
+				18609C452A1B46450023B89E /* GoogleService-Info.plist */,
 				1883D77B2A17E1D1007B0272 /* Info.plist */,
 				18827A022A18A25500A53C58 /* Components */,
 				189424682A179E0E00AC32A9 /* Extension */,
@@ -314,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B4C6412A12D5FA00454E5D /* Preview Assets.xcassets in Resources */,
-				18609C422A1AA51E0023B89E /* GoogleService-Info.plist in Resources */,
+				18609C462A1B46450023B89E /* GoogleService-Info.plist in Resources */,
 				18B4C63E2A12D5FA00454E5D /* Assets.xcassets in Resources */,
 				18E01BC72A191F130048DE8F /* Launch Screen.storyboard in Resources */,
 			);
